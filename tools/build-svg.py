@@ -312,7 +312,9 @@ def board(t, sfx):
     top, gap = 76, 20
     cw = (W - pad * 2 - gap * 2) / 3
     cols = [
-        ("RUMOURS", "planned", C["planned"], None),
+        ("RUMOURS", "planned", C["planned"], [
+            ("Vorreon Digital", "Founding my own company: PT Vorreon Digital Nusantara.", "Company · planned"),
+        ]),
         ("ON THE ROAD", "in progress", C["active"], [
             ("Goethe B1", "German tongue to level B1. The trial is taken; the scroll of results is on its way.", "Deutsch · 2026"),
             ("yanurfillah.com", "My own quest board, served by nginx and a tiny Python counter in Docker.", "Website · Docker"),

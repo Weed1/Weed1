@@ -21,7 +21,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/quest-board-dark.svg">
-    <img src="assets/quest-board-light.svg" width="100%" alt="The Quest Board. Rumours: none yet. On the road: Goethe B1 and yanurfillah.com. Legends: MikroTik MTCINE, LKS IT Network and System Administration, and the Catatan field notes.">
+    <img src="assets/quest-board-light.svg" width="100%" alt="The Quest Board. Rumours: founding PT Vorreon Digital Nusantara. On the road: Goethe B1 and yanurfillah.com. Legends: MikroTik MTCINE, LKS IT Network and System Administration, and the Catatan field notes.">
   </picture>
 </p>
 
