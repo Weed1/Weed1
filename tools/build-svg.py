@@ -245,7 +245,6 @@ def board():
         ("RUMOURS", "planned", C["planned"], None),
         ("ON THE ROAD", "in progress", C["active"], [
             ("Goethe B1", "German tongue to level B1. The trial is taken; the scroll of results is on its way.", "Deutsch · 2026"),
-            ("Deutsch", "Study scrolls for the B1 trial: course and exercise books.", "Repository · public"),
             ("yanurfillah.com", "My own quest board, served by nginx and a tiny Python counter in Docker.", "Website · Docker"),
         ]),
         ("LEGENDS", "completed", C["accent"], [
