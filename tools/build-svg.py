@@ -58,7 +58,7 @@ THEMES = {
     ),
 }
 
-# animasi dimatikan untuk pengunjung yang memilih kurangi gerak
+# animasi dasar SVG profil
 BASE_CSS = ("@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}"
             ".fu{animation:fadeUp .8s ease-out both}"
             "@keyframes twinkle{0%,100%{opacity:.15}50%{opacity:.9}}"
@@ -67,7 +67,7 @@ BASE_CSS = ("@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opaci
             ".pl{animation:pulse 4s ease-in-out infinite}"
             "@keyframes sweep{from{transform:translateX(-80px)}to{transform:translateX(280px)}}"
             ".sw{animation:sweep 2.8s ease-in-out infinite}"
-            "@media (prefers-reduced-motion:reduce){*{animation:none!important}}")
+            "")  # animasi selalu jalan, preferensi reduced-motion OS diabaikan (sama dengan web)
 
 
 def width(s, face, size, ls=0.0):
