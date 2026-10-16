@@ -54,7 +54,7 @@ THEMES = {
         strong="#eef0eb", text="#d9dcd6", body="#c3c8c1", soft="#b4bbb2", muted="#9aa39b",
         planned="#9aa39b", active="#c9d4a0", avatar="#262d28", shadow="rgba(0,0,0,.25)",
         btn_fill="#23362a", btn_stroke="#5f9e6e", btn_ink="#e6e9e3", ghost_fill="#1a201c", ghost_ink="#d9dcd6",
-        mount1="#19201b", mount2="#161c18", moon="#d9dcd6", spark="#6fbf7f",
+        mount1="#222a25", mount2="#273029", moon="#d9dcd6", spark="#6fbf7f",
     ),
 }
 
